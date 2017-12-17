@@ -10,7 +10,15 @@ This app will allow a user to input a number and will return a range of numbers 
 
 
 ## Specs
+|Behavior| |Input| |Output|
+|:-----------------| :------------------| :------------------|
 
+|It can count up to the provided number| 2 |1,2|
+|It does not count input that is not a number| |m||Nan|
+|It will replace numbers with 1 with word| 1 |"boop"|
+|It will replace numbers with 0 with word| 0 |"beep"|
+|It will replace numbers divisable by 3 with phrase|
+          |9| |"Im sorry dave, I can't do that"|
 
 
 
