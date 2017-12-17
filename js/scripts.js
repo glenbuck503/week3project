@@ -1,7 +1,5 @@
 //back end logic
-
 var result = [];
-
 
 function replace(number) {
   for (var i = 0; i <= number; i++) {
@@ -17,6 +15,8 @@ function replace(number) {
   }
 }
 
+
+//user logic interface
 $(document).ready(function() {
   $("form#inputnumbers").submit(function(event) {
     event.preventDefault();
@@ -25,6 +25,5 @@ $(document).ready(function() {
     //console.log(inputtedNumber);
 
   $("#result1").append(result);
-
   });
 });
