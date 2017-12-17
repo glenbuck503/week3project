@@ -24,7 +24,7 @@ $(document).ready(function() {
     replace(inputtedNumber);
     //console.log(inputtedNumber);
 
-  console.log(result);
+  $("#result1").append(result);
 
   });
 });

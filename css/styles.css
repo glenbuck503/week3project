@@ -8,10 +8,18 @@
   color:#1660af;
 }
 
-h1 {
- text-align: center;
+
+h1, .bop {
+  text-align: center;
+  color: #1660af!important;
 }
 
-h1 .bop{
-  color:#1660af;
+label {
+  color: white;
+  font-size: 40px;
+}
+
+#result1 {
+  font-size: 20px;
+  color: white;
 }
